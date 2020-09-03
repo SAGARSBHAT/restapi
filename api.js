@@ -7,7 +7,7 @@ const a = x();
 const MongoClient = y.MongoClient;
 const mongourl = "mongodb+srv://sagar:sagar14@cluster0.upgy9.mongodb.net/edurekainternship?retryWrites=true&w=majority";
 let db;
-const p =process.env.PORT||8900;
+const p =8900;
 
 a.use(c());
 a.use(b.urlencoded({ extended: true }));
