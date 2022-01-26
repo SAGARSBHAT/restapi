@@ -5,7 +5,7 @@ const b = require("body-parser");
 
 const a = x();
 const MongoClient = y.MongoClient;
-const mongourl = "mongodb+srv://sagar:Sagardoremon@14@cluster0.upgy9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const mongourl = "mongodb+srv://sagar:Sagardoremon@14@cluster0.upgy9.mongodb.net/edurekainternship?retryWrites=true&w=majority";
 let db;
 const p =process.env.PORT||8900;
 
